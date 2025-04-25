@@ -1,0 +1,22 @@
+[
+  { "username": "umar564", "email": "umar56@gmail.com", "tex": 50 },
+  { "username": "crypto_king", "email": "crypto_king@yahoo.com", "tex": 35 },
+  { "username": "blockchain_guru", "email": "blockchain_guru@outlook.com", "tex": 20 },
+  { "username": "nft_collector", "email": "nft_collector@gmail.com", "tex": 45 },
+  { "username": "web3_master", "email": "web3_master@yahoo.com", "tex": 60 },
+  { "username": "airdrop_hunter", "email": "airdrop_hunter@outlook.com", "tex": 25 },
+  { "username": "defi_expert", "email": "defi_expert@gmail.com", "tex": 30 },
+  { "username": "token_tracker", "email": "token_tracker@yahoo.com", "tex": 40 },
+  { "username": "wallet_wizard", "email": "wallet_wizard@outlook.com", "tex": 55 },
+  { "username": "miner_pro", "email": "miner_pro@gmail.com", "tex": 70 },
+  { "username": "hodler_101", "email": "hodler_101@yahoo.com", "tex": 15 },
+  { "username": "staking_star", "email": "staking_star@outlook.com", "tex": 80 },
+  { "username": "chain_champion", "email": "chain_champion@gmail.com", "tex": 90 },
+  { "username": "gas_saver", "email": "gas_saver@yahoo.com", "tex": 65 },
+  { "username": "ledger_lover", "email": "ledger_lover@outlook.com", "tex": 75 },
+  { "username": "metamask_maven", "email": "metamask_maven@gmail.com", "tex": 85 },
+  { "username": "dapp_dev", "email": "dapp_dev@yahoo.com", "tex": 95 },
+  { "username": "solidity_sage", "email": "solidity_sage@outlook.com", "tex": 100 },
+  { "username": "eth_enthusiast", "email": "eth_enthusiast@gmail.com", "tex": 35 },
+  { "username": "btc_believer", "email": "btc_believer@yahoo.com", "tex": 50 }
+]
