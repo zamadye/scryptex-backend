@@ -4,7 +4,6 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), ".")))
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
-from routes import analyze, farming, autopilot, airdrop, credit, auth, feedback, chat, twitter
 from core.database import Database
 from routes.waitlist import router as waitlist_router
 
@@ -34,15 +33,7 @@ async def shutdown_event():
     await Database.disconnect()  # Gunakan Database.disconnect untuk menutup koneksi
 
 # Include routers
-app.include_router(analyze.router, prefix="/api", tags=["Analyzer"])
-app.include_router(farming.router, prefix="/api", tags=["farming"])
-app.include_router(autopilot.router, prefix="/api", tags=["autopilot"])
-app.include_router(airdrop.router, prefix="/api", tags=["airdrop"])
-app.include_router(credit.router, prefix="/api", tags=["credit"])
-app.include_router(auth.router, prefix="/auth", tags=["auth"])
-app.include_router(feedback.router, prefix="/api/feedback", tags=["feedback"])
-app.include_router(chat.router, prefix="/api/chat", tags=["chat"])
-app.include_router(twitter.router, prefix="/api/twitter", tags=["twitter"])
+
 app.include_router(waitlist_router)
 
 @app.get("/")
